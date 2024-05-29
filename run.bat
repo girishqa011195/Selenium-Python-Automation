@@ -1,2 +1,1 @@
-pytest -s -v -m "regression"
-pause
+pytest -s -v -m "regression" --alluredir=./Reports
